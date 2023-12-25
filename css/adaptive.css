@@ -1,0 +1,739 @@
+@media screen and (max-width: 800px) {
+    html{
+        display: block;
+        height: 100%;
+    }
+
+    h1{
+        font-family: 'Golos Text', sans-serif;
+    position: absolute;
+    top: 2vw;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.4vw;
+    color: #FFFFFF;
+    }
+        
+    .firstblock{
+        height: 105.2vw;
+    width: 100vw;
+    position: relative;
+    }
+    
+    .pink1{
+        height: 9.90vw;
+        width: 39vw;
+        background-color: #F85FD7;
+        position: relative;
+    }
+
+    .box1{
+        height: 27vw;
+        width: 21vw;
+        top: 19vw;
+        right: 2vw;
+        position: absolute;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-name: box1;
+        animation-duration: 0.5s;
+        animation-direction: alternate;
+    }
+     
+    @keyframes box1{
+        0%{
+            top: 0vw;
+        }
+        100%{
+            top: 10vw;
+        }
+    } 
+    
+    .box2{
+        height: 52vw;
+        width: 39vw;
+        top: 43vw;
+        right: 0vw;
+        position: absolute;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-name: box2;
+        animation-duration: 1s;
+        animation-direction: alternate;
+    }
+    
+    @keyframes box2{
+        0%{
+            top:35vw;
+        }
+        100%{
+            top:53vw ;
+        }
+    }  
+    
+    .box3{
+     height: 24vw;
+    width: 41vw;
+    top: 40vw;
+    left: 16vw;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: box3;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    }
+    
+    @keyframes box3{
+        0%{
+            left: 6vw;
+        }
+        100%{
+            left: 16vw;
+        }
+    }  
+    
+    .box4{
+        height: 21vw;
+    width: 7vw;
+    left: 35vw;
+    position: absolute;
+    animation: box4 1s infinite ease-in;
+    animation-direction: alternate;
+    }
+    
+    @keyframes box4{
+        0%{
+            top: 39.9vw;
+        }
+        100%{
+            top: 70vw;
+        }
+    }  
+    
+    
+    .box5{
+        height: 15vw;
+    width: 21vw;
+    top: 90vw;
+    left: 0vw;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: box5;
+    animation-duration: 0.7s;
+    animation-direction: alternate;
+    }
+    
+    @keyframes box5{
+        0%{
+            top: 60vw;
+        }
+        100%{
+            top: 90vw;
+        }
+    } 
+    
+    .box6{
+        display: none; 
+    }
+    
+    
+    h2{
+        font-family: 'Golos Text', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.26vw;
+        color: aliceblue;
+    } 
+    
+    .pink2{
+        height: 10vw;
+        width: 52vw;
+        background-color: #F85FD7;
+        top: 30vw;
+        left: 0vw;
+        position: absolute;
+    }
+    
+    .pink3{
+        height: 10vw;
+    width: 66.1vw;
+    background-color: #F85FD7;
+    top: 95.4vw;
+    left: 21vw;
+    position: absolute;
+    }
+    
+    .secondblock{
+        height: 120vw;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    
+    }
+     
+    .tree{
+        height: 33.3vw;
+    width: 100vw;
+    background-color: #F85FD7;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    }
+    
+    .tree2{
+        width: 100vw;
+    height: 38vw;
+    position: absolute;
+    }
+        
+    
+    .cir_green{
+        position: absolute;
+        height: 8.33vw;
+        width: 8.33vw;
+        border-radius: 5vw;
+        background-color: #0CAF4B;
+    }
+    
+    .cir1{
+        top: 1.3vw;
+        left: 2vw;
+        animation: cir1 0.5s infinite ease-in;
+        animation-direction: alternate;
+    }
+    
+    @keyframes cir1{
+        0%{
+            translate: 0vw 0vw;
+        }
+        100%{
+            translate:  13vw 20vw;
+        }
+    }
+    
+    .cir2{
+        top: 4vw;
+    left: 65vw;
+    animation: cir2 1s infinite ease-in;
+    animation-direction: alternate;
+    }
+    
+    @keyframes cir2{
+        0%{
+            translate: 0vw 0vw;
+        }
+        100%{
+            translate: 24vw 16vw;
+    }
+    }
+    
+    .cir3{
+        top: 2.3vw;
+        left: 53vw;
+        animation: cir3 2s infinite ease-in-out;
+        animation-direction: alternate;
+    }
+    
+    @keyframes cir3{
+        0%{
+            translate: 0vw 0vw;
+        }
+        100%{
+            translate: -26vw 11vw;
+    }
+    }
+    
+    .cir_blue{
+        position: absolute;
+        height: 8.33vw;
+        width: 8.33vw;
+        border-radius: 5vw;
+        background-color: #B7EDFD; 
+    }
+    
+    .cir4{
+        top: 4vw;
+        left: 14.5vw;
+        animation: cir4 0.6s infinite ease-in-out;
+        animation-direction: alternate;
+    }
+    
+    @keyframes cir4{
+        0%{
+            translate: 0vw 0vw;
+        }
+        100%{
+            translate: -13vw 20vw;
+    }
+    }
+    
+    .cir5{
+        top: 1vw;
+    left: 88vw;
+    animation: cir5 0.9s infinite ease-out;
+    animation-direction: alternate;
+    }
+    
+    @keyframes cir5{
+        0%{
+            translate: 0vw 0vw;
+        }
+        100%{
+            translate: -30vw 20vw;
+    }
+    }
+    
+    .cir6{
+        top: 13vw;
+        left: 57vw;
+        animation: cir6 1.3s infinite ease-in;
+        animation-direction: alternate;   
+    }
+    
+    @keyframes cir6{
+        0%{
+            translate: 0vw 0vw;
+        }
+        100%{
+            translate: -42vw -12vw;
+    }
+    }
+    
+    .cir_pink{
+        position: absolute;
+        height: 8.33vw;
+        width: 8.33vw;
+        border-radius: 5vw;
+        background-color: #FDBEEF; 
+    }
+    
+    .cir7{
+        top: 13vw;
+        left: 2vw;
+        animation: cir7 1.3s infinite ease-in-out;
+        animation-direction: alternate;
+    }
+    
+    @keyframes cir7{
+        0%{
+            translate: 0vw 0vw;
+        }
+        100%{
+            translate: 36vw -12vw;
+    }
+    }
+    
+    .cir8{
+        top: 1.4vw;
+        left: 22vw;
+        animation: cir8 0.6s infinite ease-in;
+        animation-direction: alternate;
+    }
+    
+    @keyframes cir8{
+        0%{
+            translate: 0vw 0vw;
+        }
+        100%{
+            translate: 22vw 18vw;
+    }
+    }
+    
+    .cir9{
+        top: 1vw;
+    left: 52vw;
+    animation: cir9 1s infinite ease-in;
+    animation-direction: alternate;
+    }
+    
+    @keyframes cir9{
+        0%{
+            translate: 0vw 0vw;
+        }
+        100%{
+            translate: 21vw 19vw;
+    }
+    }
+    
+    .shapes{
+        position: relative;
+    width: 32.5vw;
+    height: 32vw;
+    left: 43.3vw;
+    animation: shapes 2s linear infinite;
+    }
+    
+    .shape{
+        overflow: hidden;
+        background: #FFFFFF;
+        height: 34.38vw;
+        width: 56.25vw;
+    }
+    
+    .shape img{
+        height: 34.38vw;
+        width: 56.25vw;
+    }
+    
+    
+    @keyframes shapes{
+        0%{
+            transform: translateY(0);
+        }
+        100%{
+            transform: translateY(-103vw);
+    }
+    }
+    
+    .sq{
+        display: none;
+    }
+    
+    .sq1{
+        display: none;
+    }
+    
+    .sq1 img{
+        display: none;
+    }
+    
+    
+    .sq2{
+        display: none;
+    }
+    
+    .sq2 img{
+        display: none; 
+    }
+    
+    .sq3{
+        display: none;
+    }
+    
+    .sq3 img{
+        width: 7.08vw;
+        height: 9.24vw;
+    }
+    
+    @keyframes sq3{
+        0%{
+            top: 23vw;
+        }
+        100%{
+            top: 5vw;
+        }
+    }
+    
+    .sq4{
+        top: 27.2vw;
+        left: 18.3vw;
+        width: 7.01vw;
+        height: 15.49vw;
+        position: absolute;
+        animation: sq4 1.2s infinite ease-in;
+        animation-direction: alternate;
+    }
+    
+    .sq4 img{
+        width: 7.01vw;
+        height: 15.49vw;
+    }
+    
+    @keyframes sq4{
+        0%{
+            top: 26.2vw;
+        }
+        100%{
+            top: 7vw;
+        }
+    }
+    
+    .sq5{
+        top: 35.7vw;
+        position: absolute;
+        width: 6.46vw;
+        height: 6.39vw;
+        animation: sq5 1s infinite ease-in-out;
+        animation-direction: alternate;
+    }
+    
+    .sq5 img{
+        width: 6.46vw;
+        height: 6.39vw;
+    }
+    
+    @keyframes sq5{
+        0%{
+            left: 0vw;
+        }
+        100%{
+            left: 10vw;
+        }
+    }
+    
+    .gr img{
+        display: none;
+    }
+    
+    .tresm{
+        position: absolute;
+        left: 1vw;
+        width: 7.57vw;
+        height: 44.1vw;
+        margin-top: -2vw;
+        animation: tresm 9s infinite linear;
+    }
+    
+    @keyframes tresm{
+        0%{
+            transform: translateY(0);
+        }
+        100%{
+            transform: translateY(-134vw);
+    }
+    }
+    
+    
+    .tresm1{
+        overflow: hidden;
+        height: 114.97vw;
+        width: 17.06vw;
+    }
+    
+    .tresm1 img{
+        height: 114.97vw;
+        width: 17.06vw;
+    }
+    
+    .treb1{
+        overflow: hidden;
+        height:  124.22vw;
+        width: 23.57vw;
+    }
+    
+    
+    .treb1 img{
+        height:  124.22vw;
+        width: 23.57vw;
+    }
+    
+    .treb{
+        position: absolute;
+    left: 19vw;
+    width: 20vw;
+    height: 44.1vw;
+    animation: treb 4s infinite linear;
+    }
+    
+    
+    @keyframes treb{
+        0%{
+            transform: translateY(0);
+        }
+        100%{
+            transform: translateY(-124vw);
+    }
+    }
+    
+    .text{
+        position: relative;
+        width: 98vw;
+        height: 6.9vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .txt{
+        display: flex;
+        width: 100vw;
+        height: 3.02vw;
+        gap: 5vw;
+        animation: txt 1.1s infinite ease-in-out ; 
+        animation-direction: alternate
+    }
+    
+    .txt2{
+        display: flex;
+        width: 100vw;
+        height: 3.02vw;
+        gap: 5vw;
+        animation: txt2 2s infinite ease-in-out ; 
+        animation-direction: alternate
+    }
+    
+    .txpink{
+        color: #F85FD7;
+        font-style: normal;
+        font-weight: 400;
+    
+    }
+    
+    .tx{
+        font-family: 'Golos Text', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3.33vw;
+        color: #0CAF4B;  
+    }
+    
+    @keyframes txt{
+        0%{margin-left: 0vw;}
+        100%{margin-left: 14.6vw;}
+    }
+    
+    .tx2{
+        font-family: 'Golos Text', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3.33vw;
+        color: #0CAF4B;
+        left: 15vw;   
+    }
+    
+     @keyframes txt2{
+        0%{margin-left: 45.4vw;}
+        100%{margin-left: 0vw;}
+    } 
+    
+    .thirdblock{
+        position: relative;
+    width: 100vw;
+    height: 149.9vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    
+    .pic1{
+        width: 50vw;
+        height: 50vw;
+        background-color: #F85FD7;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .pic11{
+        position: relative;
+        opacity: 0;
+        transition: opacity 0,5 ease;
+    }
+    
+    .pic11:hover, 
+    .pic11:hover ~ .pic11{
+        opacity: 1;
+    }
+    
+    
+    .pic2{
+        width: 50vw;
+        height: 50vw;
+        background-color: #0CAF4B;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .pic22{
+        position: relative;
+        opacity: 0;
+        transition: opacity 0,5 ease;
+    }
+    
+    .pic22:hover, 
+    .pic22:hover ~ .pic22{
+        opacity: 1;
+    }
+    
+    .pic3{
+        width: 50vw;
+        height: 50vw;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;  
+    }
+
+    .pics3{
+        display: none;
+    }
+    
+    .pic33{
+        position: relative;
+        opacity: 0;
+        transition: opacity 0,5 ease;
+    }
+    
+    .pic33:hover, 
+    .pic33:hover ~ .pic33{
+        opacity: 1;
+    }
+    
+    .pic4{
+        width: 50vw;
+        height: 50vw;
+        background-color: #B7EDFD;
+        display: flex;
+        justify-content: center; 
+    }
+
+    .pics4{
+        display: none;
+    }
+    
+    .pic44{
+        position: relative;
+        opacity: 0;
+        transition: opacity 0,5 ease;
+    }
+    
+    .pic44:hover, 
+    .pic44:hover ~ .pic44{
+        opacity: 1;
+    }
+    
+    .last{
+        width: 100vw;
+        height: 12.15vw;
+        position: relative;
+        background-color: #F85FD7;
+    }
+    
+    .last:hover,
+    .last:hover{
+        background-color: #0CAF4B;
+    }
+    
+    .name{
+        position: absolute;
+        top: 6.6vw;
+        left: 4vw;
+        font-family: 'Golos Text', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.67vw;
+        color: #FFFFFF;
+    }
+    
+    .group{
+        position: absolute;
+    top: 8.6vw;
+    left: 4vw;
+    font-family: 'Golos Text', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.67vw;
+    color: #FFFFFF;
+    }
+    
+    .logo{
+        position: absolute;
+        left: 74vw;
+        top: 1.6vw;
+        width: 21.18vw;
+        height: 8.96vw;
+    
+    }
+}
